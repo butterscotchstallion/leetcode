@@ -28,7 +28,7 @@ describe('Plus One', () => {
         expect(getLargeNumber([9])).toEqual([1, 0]);
     });
 
-    fit('case four', () => {
+    it('case four', () => {
         expect(getLargeNumber([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3])).toEqual([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,4]);
     });
 });
